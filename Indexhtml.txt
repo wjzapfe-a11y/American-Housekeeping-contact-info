@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American Housekeeping | Big Island of Hawaii Cleaning Services</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Arial', sans-serif; line-height: 1.6; color: #444; background: #f9f9f9; }
+        img { max-width: 100%; height: auto; display: block; }
+        a { text-decoration: none; color: #5a9aa8; }
+        .container { width: 90%; max-width: 1200px; margin: 0 auto; }
+
+        :root {
+            --primary: #a3c4bc;
+            --accent: #d4e4e0;
+            --btn: #7aa89f;
+            --text: #555;
+        }
+
+        header {
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://www.southernliving.com/thmb/w7k_VU-owFoLvsbLAzXxbl_5vx8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/dixon1010_08-2000-1b328c595fac4fa4984053c50e904d4d.jpg');
+            background-size: cover; background-position: center;
+            color: white; text-align: center; padding: 150px 0;
+        }
+        header h1 { font-size: 3.5rem; margin-bottom: 20px; }
+        header p { font-size: 1.5rem; margin-bottom: 30px; }
+        .btn { background: var(--btn); color: white; padding: 15px 30px; border-radius: 5px; font-size: 1.2rem; }
+        .btn:hover { background: #6b948a; }
+
+        nav {
+            background: var(--primary); position: fixed; width: 100%; top: 0; z-index: 1000;
+        }
+        nav .container { display: flex; justify-content: space-between; align-items: center; padding: 15px 0; }
+        nav a { color: white; margin: 0 15px; font-weight: bold; }
+        nav a.logo { font-size: 1.8rem; }
+
+        section { padding: 80px 0; }
+        .about, .gallery { background: #ffffff; }
+        .payment { background: var(--accent); text-align: center; }
+        h2 { text-align: center; font-size: 2.5rem; margin-bottom: 40px; color: var(--primary); }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; }
+        .service { background: white; padding: 30px; text-align: center; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+        .service h3 { color: var(--primary); margin: 20px 0; }
+
+        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .gallery-item { border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+
+        .contact { background: var(--accent); }
+        .contact form { max-width: 600px; margin: 0 auto; display: grid; gap: 20px; }
+        .contact input, .contact textarea { padding: 15px; border: 1px solid #ddd; border-radius: 5px; }
+        .contact button { background: var(--primary); color: white; padding: 15px; border: none; cursor: pointer; }
+
+        footer { background: var(--primary); color: white; text-align: center; padding: 30px 0; }
+
+        .square-btn { display: inline-block; background: #000; color: white; padding: 15px 30px; border-radius: 5px; font-weight: bold; margin: 20px 0; }
+        .square-btn:hover { background: #333; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="container">
+            <a href="#" class="logo">American Housekeeping</a>
+            <div>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#payment">Payments</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="container">
+            <h1>American Housekeeping</h1>
+            <p>Professional, Reliable & Eco-Friendly Cleaning on the Big Island of Hawaii</p>
+            <a href="#contact" class="btn">Get a Free Quote</a>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p style="text-align:center; max-width:800px; margin:0 auto;">
+                Aloha! American Housekeeping is your local, trusted cleaning service proudly serving the Big Island of Hawaii. 
+                We specialize in vacation rentals, new homes, and everyday sparkle — using eco-friendly products and island-style attention to detail.
+            </p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <h3>Standard Cleaning</h3>
+                    <p>Dusting, vacuuming, mopping, bathrooms, kitchens – weekly or bi-weekly maintenance.</p>
+                </div>
+                <div class="service">
+                    <h3>Deep Cleaning</h3>
+                    <p>Thorough top-to-bottom clean: baseboards, appliances, windows, and more.</p>
+                </div>
+                <div class="service">
+                    <h3>Move-In/Move-Out</h3>
+                    <p>Full clean to get your deposit back or prepare for new residents.</p>
+                </div>
+                <div class="service">
+                    <h3>Airbnb / Vacation Rental Turnover</h3>
+                    <p>Fast, high-quality turnovers between guests: linen changes, restocking, spotless resets for 5-star reviews.</p>
+                </div>
+                <div class="service">
+                    <h3>New Construction / Post-Build Cleaning</h3>
+                    <p>Final clean for builders and homeowners: dust removal, debris cleanup, polish to make new spaces shine.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Our Cleaning Results</h2>
+            <p style="text-align:center; max-width:800px; margin:0 auto 40px;">Spotless vacation rentals, fresh new builds, and serene home interiors</p>
+            <div class="gallery-grid">
+                <!-- Airbnb/Vacation Rental Living Rooms -->
+                <div class="gallery-item"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeM8VE-bOdi0iBa2gEu0vhnRNO1qx925CckLRd6i3Y69JL-O7XI1cK64BACpjjztBeiumWtOnpNiz2JU7A5ghdmFaOFm2quHSLuTd4tCn1syTXZynseR2DAv_7PUUNtmvaHIWCuxA?key=95vonZ1hvwOavz_rgiEV0P5e" alt="Clean modern Airbnb living room" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://de.cdn-website.com/24d14757c9b743248b5e7911148f4cb0/dms3rep/multi/livingroom.jpg" alt="Cozy vacation rental living space" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXcfHUjROftPnI6Pv6uLLpgnZCjgdZJWU_C5lbQCDQn2sNHaj_BEroG9TFEpowJYMDyJm83HL3wFa_KCLcDIo9h1YZXZa4T7lhMVpnlNxPD802RfMJh54OkH-vsi8-5OFJLUrYHH?key=95vonZ1hvwOavz_rgiEV0P5e" alt="Bright Airbnb-style open living area" loading="lazy"></div>
+
+                <!-- New Construction / Fresh Build -->
+                <div class="gallery-item"><img src="https://lirp.cdn-website.com/ce14929d/dms3rep/multi/opt/AdobeStock_1364344489-640w.jpeg" alt="Spotless new construction modern kitchen" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://cdn.mos.cms.futurecdn.net/6ocZN4ABfkREJRjKA48kQM.jpg" alt="Clean fresh new build living room" loading="lazy"></div>
+
+                <!-- Vacation Rental Bedroom -->
+                <div class="gallery-item"><img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTUyMTkyMTQ%3D/original/08668b70-d69e-4d5b-a162-45ce37728aab.jpeg" alt="Serene clean vacation rental bedroom" loading="lazy"></div>
+
+                <!-- Bathrooms -->
+                <div class="gallery-item"><img src="https://metrobathandtile.com/wp-content/uploads/contemporary-bathroom-elements.jpg" alt="Luxury clean modern bathroom" loading="lazy"></div>
+                <div class="gallery-item"><img src="https://cdn.decorilla.com/online-decorating/wp-content/uploads/2024/08/Soothing-luxury-master-bathroom-design-by-Decorilla-featuring-bathroom-trends-2025-1024x683.jpg?width=900" alt="Relaxing soft-toned bathroom" loading="lazy"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="payment" class="payment">
+        <div class="container">
+            <h2>Secure Online Payments</h2>
+            <p>We accept credit/debit cards, Apple Pay, Google Pay, and more through Square for easy, secure payments.</p>
+            <a href="https://squareup.com/pay" class="square-btn" target="_blank">Pay Now with Square</a>
+            <p>(Custom links sent after quotes for deposits or full services.)</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p style="text-align:center;">Call or text: 808-747-3595 | Email: wendyzapfe@yahoo.com</p>
+            <form name="contact" method="POST" data-netlify="true">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="tel" name="phone" placeholder="Your Phone">
+                <textarea name="message" placeholder="Message / What services do you need? (e.g., Airbnb turnover or new construction clean)" rows="5" required></textarea>
+                <input type="text" name="_gotcha" style="display:none">
+                <button type="submit">Send Message</button>
+            </form>
+            <p style="text-align:center; margin-top:20px;">Your message will be emailed to us instantly via Netlify!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 American Housekeeping. All rights reserved. Proudly serving the Big Island of Hawaii.</p>
+    </footer>
+
+</body>
+</html>
